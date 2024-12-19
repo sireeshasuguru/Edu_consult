@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+resend:
+  key: re_gAePxYjU_C9uu9HQKpLR4ZFsQgcno3uTC
+  from-email: onboarding@resend.dev
